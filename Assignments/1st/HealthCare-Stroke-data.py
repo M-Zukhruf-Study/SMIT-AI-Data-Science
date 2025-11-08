@@ -32,10 +32,8 @@ df[['stroke','heart_disease','hypertension','age','gender']]
 
 df[['stroke','heart_disease','hypertension','age','gender']].value_counts()
 
-# df[['stroke','age']].value_counts().sort_values()
-# result = df[['stroke','age']].value_counts().sort_values().reset_index(name='count')
-df[['stroke','age']]
-# result.head(50)
+df[['stroke','age']].value_counts()
+
 # ===========================================================================
 # how many people had stroke that already has Heart disease
 stroke_hd = df.groupby('heart_disease')['stroke'].sum()
