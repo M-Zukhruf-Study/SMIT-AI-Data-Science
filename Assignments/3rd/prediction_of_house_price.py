@@ -57,7 +57,8 @@ sns.set_palette("husl")
 """## Loading Dataset & Exploring The Data"""
 
 # df = pd.read_csv('/content/drive/MyDrive/DataSets/SMIT Assignment House_Price_Prediction_System(Dataset)/House Price Prediction Dataset.csv')
-df= pd.read_csv('')
+df= pd.read_csv(r"c:\Zukhruf\Github\Assignments\3rd\Dataset\House Price Prediction Dataset.csv")
+
 print("Dataset Shape:\n", df.shape)
 
 print("\nDataset Info:\n", df.info())
